@@ -1,0 +1,4 @@
+baseURL = 'https://psychotropes.github.io/'
+languageCode = 'en-us'
+title = 'PsychoTropes'
+theme = 'book'
