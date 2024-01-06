@@ -15,7 +15,7 @@ To be used along with /css/apa.css
 reference_title_class = "reference-title"
 
 references = document.getElementById('apa-references');
-console.log(references.innerHTML);
+
 references.innerHTML = references.innerHTML.replace(
 	/^(.*?\(\d+\)\.)(.*?\.)(.*)$/gm,
 	`$1<span class=\"${reference_title_class}\">$2</span>$3`
