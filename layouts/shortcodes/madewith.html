@@ -1,0 +1,101 @@
+<hr>
+<div id=madewith>
+<!-- CSS -->
+<style scoped>
+
+div#madewith-parts {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	flex-direction: row;
+	justify-content: flex-start;
+	/*column-gap: 10px;*/
+}
+
+div[id^="madewith-"]{
+	vertical-align: middle;
+	margin: 01em;
+	border: 0;
+
+	max-height: 30%;
+}
+
+img[id^="madewith-img-"]{
+	vertical-align: middle;
+	max-width: 30%;
+}
+
+img#madewith-img-google {
+	max-width: 50%;
+	height: 30%;
+}
+
+img#madewith-img-marktext {
+	max-width: 20%;
+}
+
+img#madewith-img-archive {
+	max-width: 40%;
+}
+
+img#madewith-img-apa {
+	max-width: 15%;
+}
+
+span#madewith-text {
+	font-size: 2em;
+}
+
+span#madewith-text-scihub{
+	color: rgb(255, 123, 123)!important;
+	text-decoration-color: rgb(255, 123, 123)!important;
+	font-size: 2em;
+}
+
+</style>
+
+<!-- HTML -->
+	<span id=madewith-text>
+	Made with:
+	</span>
+	<div id=madewith-parts>
+
+	<div id=madewith-scihub >
+		<a href="https://scihub.se" target="_blank">
+		<img src="https://sci-hub.se/pictures/ravenround_hs.gif" id=madewith-img-scihub />
+		<span id=madewith-text-scihub > Sci-hub </span>
+		</a>
+	</div>
+	<div id=madewith-archive>
+		<a href="https://scholar.archive.org" target="_blank">
+		<img src="https://scholar.archive.org/static/scholar-vaporwave-logo.png" id=madewith-img-archive />
+		<span> Scholar of Archive Org </span>
+		</a>
+	</div>
+	<div id=madewith-google>
+		<a href="https://scholar.google.org" target="_blank">
+		<img src="https://scholar.google.com/intl/nl/scholar/images/2x/scholar_logo_64dp.png" id=madewith-img-google />
+		</a>
+	</div>
+	<div id=madewith-zotero>
+		<a href="https://www.zotero.org" target="_blank">
+		<img src="https://www.zotero.org/static/images/icons/zotero-icon-147-160@2x.png" id=madewith-img-zotero />
+		<span> Zotero </span>
+		</a>
+	</div>
+	<div id=madewith-marktext>
+		<a href="https://www.marktext.cc" target="_blank">
+		<img src="https://github.com/marktext/marktext/raw/develop/static/logo-small.png" id=madewith-img-marktext />
+		<span> MarkText </span>
+		</a>
+	</div>
+	<div id=madewith-apa>
+		<a href="/css/apa.css" target="_blank">
+		<img src="https://www.zuaneducation.com/blog/wp-content/uploads/2017/11/html-css.png" id=madewith-img-apa />
+		<span> CSS for APA (7th Edition) Style </span>
+		</a>
+	</div>
+
+	</div>
+</div>
+
