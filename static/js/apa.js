@@ -17,7 +17,7 @@ reference_title_class = "reference-title"
 references = document.getElementById('apa-references');
 
 references.innerHTML = references.innerHTML.replace(
-	/^(.*?\(\d+\)\.)(.*?\.)(.*)$/gm,
+	/(.*?\(\d+\)\.)(.*?\.)(.*)/gm,
 	`$1<span class=\"${reference_title_class}\">$2</span>$3`
 	);
 
