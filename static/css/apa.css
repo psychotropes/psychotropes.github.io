@@ -1,0 +1,68 @@
+/****************
+  Created by John Torakis for PsychoTropes.wiki
+
+  Referencing APA (7th Edition) Style Guides:
+  - https://apastyle.apa.org
+  - https://owl.purdue.edu/owl/research_and_citation/apa_style
+*/
+
+p,span,h1,h2,h3,h4,h5 {
+/*
+  https://apastyle.apa.org/style-grammar-guidelines/paper-format/font
+*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;  
+  line-height: 2;
+  font-size: 1em;
+}
+
+.abstract-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.abstract-body {
+}
+
+span.keywords-title {
+/* https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html */
+  font-style: italic;
+}
+
+/* APA Headings:
+  https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings
+Starting from H2 as the first Level of APA Heading
+*/
+h2 { /* APA Heading 1 */
+  font-size: 1em;
+  font-weight: bold!important;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 { /* APA Heading 2 */
+  font-size: 1em;
+  font-weight: bold!important;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+h4 { /* APA Heading 3 */
+  font-size: 1em;
+  font-weight: bold!important;
+  font-style: italic;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+div#apa-references{
+  text-indent: 2em;
+}
+
+span.reference-title {
+  font-style: italic;  
+}
