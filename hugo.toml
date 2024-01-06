@@ -2,3 +2,33 @@ baseURL = 'https://psychotropes.github.io/'
 languageCode = 'en-us'
 title = 'PsychoTropes'
 theme = 'book'
+license = "MIT"
+licenselink = "https://github.com/psychotropes/psychotropes.github.io/blob/master/LICENSE"
+description = "A Library of Psychological Tropes!"
+homepage = "https://psychotropes.wiki"
+
+[author]
+  name = "John Torakis"
+  homepage = "https://psychotropes.wiki/about/"
+
+[params]
+  BookSection = 'docs'
+  BookTheme = 'auto'
+#  BookMenuBundle = '/menu'
+
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "About"
+  url = "/about"
+  weight = 10
+
+[[menu.after]]
+  name = "Blog"
+  url = "/posts"
+  weight = 1
+
+[markup.goldmark.renderer]
+  unsafe = true
+
