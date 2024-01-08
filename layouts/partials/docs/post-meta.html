@@ -5,8 +5,8 @@
 {{ range $taxonomy, $_ := .Site.Taxonomies }}
   {{ with $terms := $.GetTerms $taxonomy }}
   <div id="keywords">
-	<span class="keywords-title"> Keywords: </span>
-	<span class="keywords-text">
+	<span class="apa-keywords-title"> Keywords: </span>
+	<span class="apa-keywords-text">
     {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
       <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
     {{- end }}
