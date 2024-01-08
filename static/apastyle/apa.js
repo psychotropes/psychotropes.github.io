@@ -12,9 +12,10 @@ To be used along with /css/apa.css
 /**
 	Reference Title Italics
 */
-reference_title_class = "reference-title"
+reference_title_class = "apa-reference-title"
+references_class = "apa-references"
 
-references = document.getElementById('apa-references');
+references = document.getElementById(references_class);
 
 references.innerHTML = references.innerHTML.replace(
 	/(.*?\(\d+\)\.)(.*?\.)(.*)/gm,

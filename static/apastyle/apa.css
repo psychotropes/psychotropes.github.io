@@ -20,15 +20,15 @@ p {
   font-size: 1em;
 }
 
-.abstract-title {
+.apa-abstract-title {
   font-weight: bold;
   text-align: center;
 }
 
-.abstract-body {
+.apa-abstract-body {
 }
 
-span.keywords-title {
+span.apa-keywords-title {
 /* https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html */
   font-style: italic;
 }
@@ -63,6 +63,6 @@ div#apa-references{
   text-indent: 2em;
 }
 
-span.reference-title {
+span.apa-reference-title {
   font-style: italic;  
 }
