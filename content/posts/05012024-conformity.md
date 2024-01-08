@@ -1,6 +1,6 @@
 ---
 title: 'On the "How" and "Why" of the Social phenomenon of "Conformity"'
-author: "John Torakis"
+authors: '["John Torakis"]'
 institution: "University of Central Lancashire"
 tags: ["conformity", "social psychology", "brain-imaging", "neuropsychology"]
 date: "2024-01-05"
@@ -8,7 +8,7 @@ date: "2024-01-05"
 
 {{% apa %}}
 
-{{< abstract keywords="" >}}
+{{< abstract >}}
 This essay summarizes the concept of "conformity" in Social Psychology, highlighting research on the subject and well-known experiments that helped with understanding and defining the term. Furtherly, scientific work will be presented regarding modern aspects of research on conforming behaviour and its imprint on the human brain. Specifically, recent brain-imaging studies will be discussed that focus on neural activity of subjects conducting conformity (or dissension) as a social behaviour, providing base for theories, such as "Reinforcement Learning" and "Cognitive Balance". It is notable that, through these studies, even cognitive involvement on conformity could be disputed, revealing a deeper tendency towards such behaviours.
 {{< /abstract >}}
 
