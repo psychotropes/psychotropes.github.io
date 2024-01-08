@@ -1,3 +1,7 @@
+<p class="apa-authors" id="apa-authors">
+  {{ .Params.authors }}
+</p>
+
 {{ with .Date }}
   <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
 {{ end }}

@@ -66,3 +66,7 @@ div#apa-references{
 span.apa-reference-title {
   font-style: italic;  
 }
+
+p.apa-authors {
+  text-align: center;
+}
