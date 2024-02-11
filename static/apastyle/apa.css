@@ -19,19 +19,22 @@ p {
   text-justify: inter-word;  
   line-height: 2;
   font-size: 1em;
-}
-
-p:not(.apa-abstract-body,.apa-abstract-title){
-/* https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format */
   text-indent: 0.5in;
 }
 
-.apa-abstract-title {
-  font-weight: bold;
+p.apa-authors {
   text-align: center;
+  text-indent: 0;
 }
 
-.apa-abstract-body {
+p.apa-abstract-title {
+  font-weight: bold;
+  text-align: center;
+  text-indent: 0;
+}
+
+p.apa-abstract-body {
+  text-indent: 0;
 }
 
 span.apa-keywords-title {
@@ -71,8 +74,4 @@ div#apa-references{
 
 span.apa-reference-title {
   font-style: italic;  
-}
-
-p.apa-authors {
-  text-align: center;
 }
