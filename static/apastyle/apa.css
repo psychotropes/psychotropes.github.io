@@ -14,10 +14,16 @@ p,span,h1,h2,h3,h4,h5 {
 }
 
 p {
-  text-align: justify;
+/* https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format */
+  text-align: left;
   text-justify: inter-word;  
   line-height: 2;
   font-size: 1em;
+}
+
+p:not(.apa-abstract-body,.apa-abstract-title){
+/* https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format */
+  text-indent: 0.5in;
 }
 
 .apa-abstract-title {
