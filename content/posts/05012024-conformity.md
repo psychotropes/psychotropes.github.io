@@ -65,7 +65,7 @@ Asch, S. E. (1951). Effects of Group Pressure upon the Modification and Distorti
 
 Asch, S. E. (1952). Group forces in the modification and distortion of judgments. In Social psychology (pp. 450–501). Prentice-Hall, Inc. [APA PsycNet](https://doi.org/10.1037/10025-016) 
 
-Berns, G. S., Chappelow, J., Zink, C. F., Pagnoni, G., Martin-Skurski, M. E., & Richards, J. (2005). Neurobiological Correlates of Social Conformity and Independence During Mental Rotation. Biological Psychiatry, 58(3), 245–253. [Redirecting](https://doi.org/10.1016/j.biopsych.2005.04.012) 
+Berns, G. S., Chappelow, J., Zink, C. F., Pagnoni, G., Martin-Skurski, M. E., & Richards, J. (2005). Neurobiological Correlates of Social Conformity and Independence During Mental Rotation. Biological Psychiatry, 58(3), 245–253. [https://doi.org/10.1016/j.biopsych.2005.04.012](https://doi.org/10.1016/j.biopsych.2005.04.012) 
 
 Craig, H., Curtis, B., & Philip, Z. (1973). A study of prisoners and guards in a simulated prison. In Naval Research Review (pp. 4–17). 
 
@@ -77,13 +77,13 @@ Fearing, F., & Krise, E. M. (1941). Conforming Behavior and the J-Curve Hypothes
 
 Heider, F. (1946). Attitudes and Cognitive Organization. The Journal of Psychology, 21(1), 107–112. [Attitudes and Cognitive Organization: The Journal of Psychology: Vol 21, No 1](https://doi.org/10.1080/00223980.1946.9917275) 
 
-Izuma, K., & Adolphs, R. (2013). Social Manipulation of Preference in the Human Brain. Neuron, 78(3), 563–573. [Redirecting](https://doi.org/10.1016/j.neuron.2013.03.023) 
+Izuma, K., & Adolphs, R. (2013). Social Manipulation of Preference in the Human Brain. Neuron, 78(3), 563–573. [https://doi.org/10.1016/j.neuron.2013.03.023](https://doi.org/10.1016/j.neuron.2013.03.023) 
 
 Jastrow, J. (1917). The Psychology of Conviction. The Scientific Monthly, 5(6), 523–544. 
 
 Kahneman, D. (2003). Maps of Bounded Rationality: Psychology for Behavioral Economics. American Economic Review, 93(5), 1449–1475. <https://doi.org/10.1257/000282803322655392> 
 
-Klucharev, V., Hytönen, K., Rijpkema, M., Smidts, A., & Fernández, G. (2009). Reinforcement Learning Signal Predicts Social Conformity. Neuron, 61(1), 140–151. [Redirecting](https://doi.org/10.1016/j.neuron.2008.11.027) 
+Klucharev, V., Hytönen, K., Rijpkema, M., Smidts, A., & Fernández, G. (2009). Reinforcement Learning Signal Predicts Social Conformity. Neuron, 61(1), 140–151. [https://doi.org/10.1016/j.neuron.2008.11.027](https://doi.org/10.1016/j.neuron.2008.11.027) 
 
 Sherif, M. (1936). The psychology of social norms (pp. xii, 210). Harper. 
 
@@ -91,7 +91,7 @@ Stallen, M., & Sanfey, A. G. (2015). The neuroscience of social conformity: Impl
 
 Wei, Z., Zhao, Z., & Zheng, Y. (2013). Neural mechanisms underlying social conformity in an ultimatum game. [Frontiers | Neural mechanisms underlying social conformity in an ultimatum game](https://www.frontiersin.org/articles/10.3389/fnhum.2013.00896/full) 
 
-Wu, H., Luo, Y., & Feng, C. (2016). Neural signatures of social conformity: A coordinate-based activation likelihood estimation meta-analysis of functional brain imaging studies. Neuroscience & Biobehavioral Reviews, 71, 101–111. [Redirecting](https://doi.org/10.1016/j.neubiorev.2016.08.038) 
+Wu, H., Luo, Y., & Feng, C. (2016). Neural signatures of social conformity: A coordinate-based activation likelihood estimation meta-analysis of functional brain imaging studies. Neuroscience & Biobehavioral Reviews, 71, 101–111. [https://doi.org/10.1016/j.neubiorev.2016.08.038](https://doi.org/10.1016/j.neubiorev.2016.08.038) 
 
 Zubin, J. (1943). A Proposed Measure of Social Conformity. Sociometry, 6(1), 72–93. [A Proposed Measure of Social Conformity on JSTOR](https://doi.org/10.2307/2785064) 
 
