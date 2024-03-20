@@ -3,7 +3,7 @@ title: 'Science behind Brain-Imaging: A journey for neuroscientists to their own
 authors: '["John Torakis"]'
 institution: "University of Central Lancashire"
 tags: ["brain-imaging", "EEG", "PET", "fMRI", "technology", "mathematics", "physics", "chemistry"]
-date: "2024-02-12"
+date: "2024-03-20"
 ---
 
 {{% apa %}}
