@@ -15,6 +15,7 @@ homepage = "https://psychotropes.wiki"
   BookSection = 'docs'
   BookTheme = 'auto'
 #  BookMenuBundle = '/menu'
+  math = false
 
 
 [menu]
@@ -29,6 +30,19 @@ homepage = "https://psychotropes.wiki"
   url = "/posts"
   weight = 1
 
-[markup.goldmark.renderer]
-  unsafe = true
+
+[markup]
+
+  defaultMarkdownHandler = 'goldmark'
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+
+    [markup.goldmark.renderer]
+      unsafe = true
 
