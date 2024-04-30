@@ -11,6 +11,7 @@ These are my notes on the courses of my BSc on Psychology.
 ## Disclaimers
 
 * These are *my* notes, taken from classes and the Internet. They are not reviewed by a professor, study from them at your own risk.
+* If something feels wrong in the notes, please [contact me](/about#contact) so we can correct it!
 
 ## [Notes on Statistics 101](/docs/notes/statistics-101/)
 
