@@ -70,7 +70,7 @@ Myelencephalon --> MO["Medulla Oblongata
 (Spinal Cord)"]
 ```
 
-![brain_evolution_parts](/notes/brain_evolution_parts.jpg)
+![brain_evolution_parts](/notes/brain_evolution_parts.webp)
 
 | Name                 | Functions                                                                                                                                                             | Brain Atlas                                                                     |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -80,7 +80,7 @@ Myelencephalon --> MO["Medulla Oblongata
 | Somatosensory Cortex | Processes sensations<br/>- Sensation of touch<br/>- Haptic Feedback<br/>- Temperature <br/>- Balance <br/>- Pain <br/>                                                | [click](https://neurotorium.org/tool/brain-atlas/#primary-somatosensory-cortex) |
 | Auditory Cortex      | Accepts and encodes sound                                                                                                                                             | [click](https://neurotorium.org/tool/brain-atlas/#primary-auditory-cortex)      |
 | Wernicke's Area      | Makes sense of language                                                                                                                                               | [click](https://neurotorium.org/tool/brain-atlas/#wernicke%E2%80%99s-area)      |
-| Visual Cortex        | - Accepts and maps visual information<br/>- Recognizes Objects<br/>                                                                                                   | [click](https://neurotorium.org/tool/brain-atlas/#primary-visual-cortex)        |
+| Visual Cortex        | Accepts and encodes visual information                                                                                                                                | [click](https://neurotorium.org/tool/brain-atlas/#primary-visual-cortex)        |
 | Hippocampus          | Plays a huge role in memory and spatial associations                                                                                                                  | [click](https://neurotorium.org/tool/brain-atlas/#hippocampus)                  |
 | Amygdala             | Center of fear and "*Fight or Flight*" response                                                                                                                       | [click](https://neurotorium.org/tool/brain-atlas/#amygdala)                     |
 | Pineal Gland         | Generates hormone melatonin, regulates sleep-cycle                                                                                                                    | [click](https://neurotorium.org/tool/brain-atlas/#pineal-gland)                 |
@@ -128,8 +128,6 @@ The Neuron is designed *to transfer information*. All its parts play a role in t
 | Myelin Sheath    | Insulation of the Axon that vastly increases the speed of the travelling information (from the *Dendrites* to the *Axon Terminals*).                                                            |
 | Nodes of Ranvier | They are responsible for the [*Saltatory Conduction*](#saltatory-conduction), a process that helps $Na^+$ Ions travel faster during the [*Action Potential*](#action-potential), saving energy. |
 
-
-
 ### Neuron Potentials
 
 The move from *Resting* to *Action Potential* is what the Neurons are designed to do - their function. It is a chemical and electrical phenomenon, yet a very simple concept.
@@ -167,9 +165,9 @@ Outside the *Membrane* there are ***a lot of*** $Na^+$ Ions and some $Ca^+$. Thi
 * There are plenty $Na^+$ Ions outside the *Membrane* and not nearly as many inside of it. This pumps up their *Chemical Urge* to move inside (until they are split equally in both sides).
 
 * The Negative Proteins in the Neuron charge it overally negative, so $Na^+$ Ions want to move in the *Neuron Cell* due to their *Electrical Urge* as well.
-  How much they want to move in? About $70mV$!
+  How much they want to move in? About $-70mV$!
 
-So, in the *Resting Potential* of the neuron, a voltage of about $70mV$ is measured between the two sides of the *Cell Membrane*. And without external events, this is balanced.
+So, in the *Resting Potential* of the neuron, a voltage of about $-70mV$ is measured between the two sides of the *Cell Membrane*. And without external events, this is balanced.
 
 #### The Ion Gates
 
@@ -217,8 +215,6 @@ DS --> RP
 
 PS --> |" > -50mV "| AP("Action Potential")
 PS --> |" < -50mV "| RP
-
-
 ```
 
 ### The *Action Potential*
@@ -255,24 +251,236 @@ This is hindered by Reuptake Inhibitors, leaving the Neurotransmitters longer in
 
 ![](/notes/synapse.webp)
 
-
-
 ---
 
+## Visual System
 
+### Cones and Rods
 
----
+These are the 2 types of Cells that encode what we see into neural activity. The Cones are responsible for encoding Color and the Rods encode Brightness. There are 3 types of Cones, encoding Red, Green and Blue and 1 type of Rods. They all reside in the *Retina*.
 
-## Memory
+The Rods and Cones produce the signal that eventually gets transmitted to the *Optic Nerves* through the Ganglion Cells.
+
+![](/notes/cones-and-rods.webp)
+
+### The Optic Chiasma
+
+Sight is one of the functions that is handled *contralaterally*. This means that the right side of the eyesight is processed in the LH and vice-versa. The way the Optic Nerves of both eyes are connected to the *Primary Visual Cortex* (in the Occipital Lobes) is shown below: 
+
+![](/notes/optic-chiasma.webp)
+
+### The Dorsal and Ventral Streams
+
+The *Dorsal* and *Ventral Streams* are the ways we make sense of what we see. We make sense both of *What* is what we see and *Where* it is or *How* it moves.
+
+The *Dorsal Stream* is responsible for the *Where* and *How* of what we see, moving from the *Occipital Lobe* towards the *Parietal Lobe*. The Parietal Lobe is where the somatosensory systems are located. This transmission is fast.
+
+The *Ventral Stream* is about *What* we see, the decoding of the objects into symbols and concepts. This transmission goes from the *Occipital Lobe* to the *Temporal Lobes*. The *Temporal Lobes* contain the memories (Limbic System's Hippocambi and Amygdala) as well as *Wernicke's Area* (Left side only). This transmission is slower than the *Dorsal* one.
+
+![](/notes/dorsal-ventral-stream.webp)
 
 ---
 
 ## Language
 
+### The Wernicke-Gerswind Model
+
+This model describes the pathway that language takes in the brain. The brain components that are involved are described below:
+
+| Name                    | Function                                            |
+| ----------------------- | --------------------------------------------------- |
+| Wernicke's Area         | Makes sense of language                             |
+| Broca's Area            | Language Generation                                 |
+| Arcuate Fasciculous     | Connects Broca's Area with Wernicke's Area          |
+| Angular Gyrus           | Connects Primary Visual Cortex with Wernicke's Area |
+| Primary Visual Cortex   | Accepts and encodes visual information              |
+| Primary Motor Cortex    | Responsible for movement generation                 |
+| Primary Auditory Cortex | Accepts and encodes sound                           |
+
+The locations of all the components is in the Left Hemisphere, as shown here (the *Arcuate Fasciculous* in shown as an arrow between the 2 Language Areas):
+
+![](/notes/wernicke-gerswind.webp)
+
+The model suggests the following pathways of language in the cases of:
+
+* Answering to someone (in a conversation)
+* Reading Outloud
+
+A big part of both pathways is the same, as shown in the flowchart below:
+
+```mermaid
+flowchart TD
+
+WA["Wernicke's Area"]
+BA["Broca's Area"]
+AF["Arcuate Fasciculous"]
+AG["Angular Gyrus"]
+CV["Visual Cortex"]
+CM["Motor Cortex"]
+CA["Auditory Cortex"]
+
+subgraph "Reading outloud"
+W("Words") --> |Read| CV --> AG 
+end
+AG --> |Decode words into thoughts| WA
+
+subgraph "Answering to someone"
+S("Speech Sound") --> |Listen|CA
+end
+CA ---> |Decode speech into thoughts| WA
+
+WA --> AF --> |Produce words from thoughts| BA 
+BA --> |Use muscles to pronounce words| CM
+CM --> |Speak / Answer| SS("Speech Sound")
+```
+
+### Aphasias
+
+Aphasia is the inability to produce coherent language. It is generally caused by damage to brain areas controlling language. Two types of aphasia are described in these notes.
+
+#### Broca's Aphasia - Expressive
+
+In this type of Aphasia there is a fracture between the thoughts and the expression of them through language. It is commonly caused by damage in Broca's Area, which is responsible for encoding thoughts into language.
+
+A patient of Expressive Aphasia *can fully comprehend language*, can think, but is *unable to find the words to express thoughts*, both verbally and through writing.
+
+#### Wernicke's Aphasia - Receptive/Fluent
+
+In this type of Aphasia the comprehension of language is mainly impacted, possibly by damage in Wernicke's Area, which is responsible for understanding language (either written or spoken).
+
+In this case, a patient can produce language (hence *fluent* aphasia), but is mostly incoherent, making communication impossible. It is notable that a patient can very well be **not aware of the problem**, meaning that they cannot understand that their communication does not make sense.
+
 ---
 
-## Neuro-Imaging
+## Memory
+
+Memory is split in different types, given its usage and where in the brain they could be located.
+
+```mermaid
+flowchart TB
+
+
+M("Memory")
+
+
+M --> SM["Sensory Memory
+[< 1 sec]"]
+M --> STM["Short-Term Memory
+(Working Memory)
+[< 1 min]"]
+M --> LTM["Long-Term Memory
+[lifetime]"]
+
+LTM --> EM["Explicit Memory
+(consious)"]
+LTM --> IM["Implicit Memory
+(unconsious)"]
+
+EM --> DM["Declarative Memory
+(facts, events)"]
+IM --> PM["Procedural Memory
+(skills, tasks)"]
+
+DM --> EpM["Episodic Memory
+(events, experiences)"]
+DM --> SemM["Semantic Memory
+(facts, concepts)"]
+```
+
+### Brain Regions and Memory
+
+Turns out there is *no brain region that single-handedly stores memories* (like a hard drive). *Karl Lashley's* research focused on finding that brain region, he called *Memory Engram*, and *failed*. He concluded that all regions play a role in memory (*equipotentiality*) and that they have equally significant role (mass action).
+
+Memory is held by several regions as well as the communication between them. Some brain regions and the corresponding Memory types are shown below:
+
+| Memory Type                 | Brain Regions                    |
+| --------------------------- | -------------------------------- |
+| Short-Term Memory           | Prefrontal Cortex                |
+| Procedural Memory           | - Basal Ganglia<br/>- Cerebellum |
+| Declarative                 | Hippocampi                       |
+| Sensory (Visual) Memory     | Parietal Lobe                    |
+| Episodic (Emotional) Memory | Amygdala                         |
+
+### Hippocampi and H.M.
+
+*Henry Molaison* (H.M.) was admitted to surgery because of his severe epileptic seizures. Both his *Hippocampi* (among other parts, such as *Amygdalas*) were removed in an attempt to cure his life-threatening epilepsy.
+
+After the surgery, H.M. could not form any new *explicit* memories, resulting in a case of *Anterograde Amnesia*. Additionally he could not remember a lot of his recent years, resulting in partial *Retrograde Amnesia* as well.
+
+It is also notable that H.M. could learn new skills, like *Mirror Drawing*, highlighting that *Procedural Memory* is not tightly coupled with the *Hippocampus* and *Amygdala*.
+
+![](/notes/amnesia.webp)
+
+#### Hippocampi and Spatial Memory
+
+The Hippocampi play a significant role in memory. They are responsible for navigating in space and remembering maps and directions. The famous study by Maguire et al (2000), showed that Cab Drivers in London have significantly bigger Hippocampi than non Cab Drivers, as they have to learn by heart the vast map of London.
+
+### Memory and the Neurons
+
+*Donald Hebb*'s research was about *How* (and not *Where* - like Lashley's) memory is stored in the neurons. He found out that a set of neurons form a *Memory Trace* when *they fire together*. He figured that the neural circuits that fire together for enough time, eventually undergo structural changes, connecting to each other - *wiring together*.
+
+This led to the famous phrase "*Neurons that fire together, wire together*" and seems to be a way that memories are formed.
+
+#### Long Term Potentiation (LTP)
+
+The Synapses that are continuously firing tend to "get better at it". This means that both the *Presynaptic Membrane* (*Axon Terminal* of the Output Neuron) tend to send more *Neurotransmitters* and that the *Postsynaptic Membrane* (*Dendrite* of the Input Neuron) creates more *Receptors*.
+
+Eventually, the Input Neuron can get to the Firing Threshold with *less excitation* than initially, as it can receive more Neurotransmitters in one go.
 
 ---
 
-## 
+## Brain-Imaging
+
+### Types
+
+Brain-Imaging can be of two types:
+
+#### Structural
+
+This type *depicts* the brain. *Magnetic Resonance Imaging* (MRI) is very famous in this category. It takes "photos" of the brain in slices, making possible to reveal its structure and its regions.
+
+Another older technique is *Computed Tomography* (CT) where X-Rays are used to take photos of the brain.
+
+These techniques reveal brain structure, but tell us nothing about its function. This is the case with Functional Techniques.
+
+#### Functional
+
+This type focuses on *what happens* in the brain - its functionalities. The *functional Magnetic Resonance Imaging* (fMRI), the *Electroencephalography* (EEG), the *Positron Emition Tomography* (PET) are some of the functional brain-imaging techniques.
+
+Yet, there is no *One to Rule them All* functional brain-imaging technique, as they have significant differences, mainly in their resolutions (but also in cost of equipment, suitability for research, loudness, etc).
+
+*(An essay on how the Functional Brain-Imaging techniques work is available here: [Science behind Brain-Imaging: A journey in the tools of neuroscience | PsychoTropes](https://psychotropes.wiki/posts/12022024-brainimaging/))*
+
+### Resolutions
+
+#### Spatial Resolution
+
+The *Spatial Resolution* is about how well a technique can locate what's happening in the brain and It is measured in cubic millimeters ($mm^3$). It is the accuracy of pinpointing the specific regions that the brain activates.
+
+In terms of Spatial Resolution, the mentioned techniques are ordered as below:
+
+$$
+EEG << PET < fMRI
+$$
+
+*Electroncephalography* (EEG) can mainly pick up signals from the top of the brain, as it uses electrodes set on the scalp. These signals are the gross summation of all activities, not only of the *Cerebral Cortex*. As Nancy Kanweiser put it in her MIT lectures: "it is like installing a microphone on the top of a football stadium". In that sense we can't even speak about $mm^3$ of spatial resolution, but only about gross estimations.
+
+*Positron Emition Tomography* (PET) is a lot better than EEG in that matter. It is between 4 to 12 $mm^3$ depending on the equipment. Yet, it requires the subject to inject or inhale radioactive materials, and the equipment is a lot more expensive than EEG equipment.
+
+*functional Magnetic Resonance Imaging* (fMRI) can reach *Spatial Resolution* as low as 1 $mm^3$. Yet, it is expensive, very loud (it's impossible to study sleep with it), and has quite low *Temporal Resolution*.
+
+#### Temporal Resolution
+
+*Temporal Resolution* is the time between an activation happening somewhere in the brain and the brain-imaging technique picking it up. It is measured in seconds ($s$).
+
+In terms of Spatial Resolution, the functional techniques are ordered as below:
+
+$$
+PET < fMRI << EEG
+$$
+
+*Positron Emition Tomography* (PET) has a Temporal Resolution of 5 to 10 $s$, as it does not directly pick up the neural activity itself, but an effect of metabolism of the neurons that are activated. This metabolic change happens orders of magnitudes slower than the neural activation itself.
+
+*functional Magnetic Resonance Imaging* (fMRI) has a bit better *Temporal Resolution* of 3 to 6 $s$, but it is also based on recognising metabolic changes and not the neural activity itself.
+
+*Electroncephalography* (EEG) is superior than the other techniques in *Temporal Resolution*. This is due to the fact that EEG picks up the neural activity directly, and not any secondary effect.
