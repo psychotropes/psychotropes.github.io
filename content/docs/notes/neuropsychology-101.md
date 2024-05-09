@@ -3,7 +3,7 @@ title: Neuropsychology 101
 weight: 2
 bookCollapseSection: false
 
-bookHidden: true
+bookHidden: false
 bookSearchExclude: true
 
 math: true # for action potential chemistry
